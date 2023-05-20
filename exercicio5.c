@@ -4,15 +4,15 @@
 #define MAX 10
 
 /* =======================================
-*  FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS
+*  FACULDADE DE CIï¿½NCIAS SOCIAIS APLICADAS
 *  ATIVIDADE DE AED - PLANO CARTESIANO
-*  ALUNO: EULER MAGNO DE OSMAR JÚNIOR
-*  MATRÍCULA: 14321  DATA: 24/06/2019 
+*  ALUNO: EULER MAGNO DE OSMAR Jï¿½NIOR
+*  MATRï¿½CULA: 14321  DATA: 24/06/2019 
 *  ======================================= 
 */
 
 
-// "*a" é o vetor e "tamnho" é o número de itens existentes na lista. 
+// "*a" ï¿½ o vetor e "tamnho" ï¿½ o nï¿½mero de itens existentes na lista. 
   void shell_sort(int *a, int tamanho) {
 
     int i , j , valor;
@@ -55,13 +55,13 @@ int i, vet[MAX], cont=0;
 		}
 	
 
-		printf("\nRefazer as opções?");
+		printf("\nRefazer as opï¿½ï¿½es?");
 		printf("\n[1 = sim] [2 = nao ]:");
 		scanf("%d", &cont);
 		system("cls");
 		while(cont!=1 && cont!=2)
 		{
-			printf("\n Digite uma opção  válida!");
+			printf("\n Digite uma opï¿½ï¿½o  vï¿½lida!");
 			printf("\n [1 = sim] [2 = nao ]:");
 			scanf("%d", &cont);
 			system("cls");
